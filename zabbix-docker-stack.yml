@@ -13,7 +13,6 @@ services:
    - --default-authentication-plugin=mysql_native_password
   environment:
    - MYSQL_USER=zabbix
-
    - MYSQL_PASSWORD=sys0815#
    - MYSQL_ROOT_PASSWORD=sys0815#
    - ZBX_JAVAGATEWAY=zabbix-java-gateway
